@@ -1,6 +1,6 @@
-﻿//string[] array1 = new string[] {"Hello", "2", "world", ":-)" };
+﻿string[] array1 = new string[] {"Hello", "2", "world", ":-)" };
 //string[] array1 = new string[] {"1234", "1567", "-2", "computer science" };
-string[] array1 = new string[] {"Russia", "Denmark", "Kazan" };
+//string[] array1 = new string[] {"Russia", "Denmark", "Kazan" };
 string[] array2 = new string[array1.Length];
 
 void FillArray (string[] array1, string[] array2)
