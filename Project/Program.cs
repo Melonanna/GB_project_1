@@ -1,7 +1,9 @@
-﻿string[] array1 = new string[] {"Hello", "2", "world", ":-)" };
+﻿//string[] array1 = new string[] {"Hello", "2", "world", ":-)" };
+//string[] array1 = new string[] {"1234", "1567", "-2", "computer science" };
+string[] array1 = new string[] {"Russia", "Denmark", "Kazan" };
 string[] array2 = new string[array1.Length];
 
-void FillArray (string[] array1, string[] array2) //норм название метода придумать
+void FillArray (string[] array1, string[] array2)
 {
     int count = 0;
     for (int i = 0; i < array1.Length; i++)
@@ -13,7 +15,6 @@ void FillArray (string[] array1, string[] array2) //норм название м
         }
     }
 }
-
 void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
