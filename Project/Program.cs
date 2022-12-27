@@ -32,9 +32,10 @@ PrintArray(array2);
 
 */
 
-string[]  = new string[] {"Hello", "2", "world", ":-)", "2"};
+string[] array1 = new string[] {"Hello", "2", "world", ":-)", "2"};
 string[] array2 = new string[array1.Length];
-void SecondArrayWithIF(string[] array1, string[] array2)
+
+void FillArray (string[] array1, string[] array2) //норм название метода придумать
 {
     int count = 0;
     for (int i = 0; i < array1.Length; i++)
@@ -46,6 +47,7 @@ void SecondArrayWithIF(string[] array1, string[] array2)
         }
     }
 }
+
 void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
@@ -54,6 +56,6 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-SecondArrayWithIF(array1, array2);
+FillArray(array1, array2);
 PrintArray(array2);
 
